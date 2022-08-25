@@ -8,8 +8,6 @@ public class Pessoa {
 	private int idade;
 	private Date dataNascimento;
 	
-	private String campoNovo;
-	
 	public int getIdade() {
 		return idade;
 	}
