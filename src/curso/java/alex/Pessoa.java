@@ -9,7 +9,32 @@ public class Pessoa {
 	private Date dataNascimento;
 	private Date dataCadastro;
 	private String cidade;
+	private String cep;
 	
+	public Date getDataCadastro() {
+		return dataCadastro;
+	}
+
+	public void setDataCadastro(Date dataCadastro) {
+		this.dataCadastro = dataCadastro;
+	}
+
+	public String getCidade() {
+		return cidade;
+	}
+
+	public void setCidade(String cidade) {
+		this.cidade = cidade;
+	}
+
+	public String getCep() {
+		return cep;
+	}
+
+	public void setCep(String cep) {
+		this.cep = cep;
+	}
+
 	public int getIdade() {
 		return idade;
 	}
